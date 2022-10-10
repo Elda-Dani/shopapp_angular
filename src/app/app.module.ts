@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
+import { GentsComponent } from './gents/gents.component';
 
 const appRoutes : Routes=[
 
@@ -15,6 +16,9 @@ const appRoutes : Routes=[
   },
   {
     path:"about",component:AboutComponent
+  },
+  {
+    path:"gents",component:GentsComponent
   }
 ]
 
@@ -23,7 +27,8 @@ const appRoutes : Routes=[
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    GentsComponent
   ],
   imports: [
     BrowserModule,
