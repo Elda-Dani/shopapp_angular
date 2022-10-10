@@ -13,6 +13,7 @@ import { KidsComponent } from './kids/kids.component';
 import { FeaturesComponent } from './features/features.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
+import { NewComponent } from './new/new.component';
 
 const appRoutes : Routes=[
 
@@ -39,6 +40,9 @@ const appRoutes : Routes=[
   },
   {
     path:"login",component:LoginComponent
+  },
+  {
+    path:"new",component:NewComponent
   }
 ]
 
@@ -53,7 +57,8 @@ const appRoutes : Routes=[
     KidsComponent,
     FeaturesComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    NewComponent
   ],
   imports: [
     BrowserModule,
