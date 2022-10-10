@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { GentsComponent } from './gents/gents.component';
 import { WomensComponent } from './womens/womens.component';
 import { KidsComponent } from './kids/kids.component';
+import { FeaturesComponent } from './features/features.component';
 
 const appRoutes : Routes=[
 
@@ -27,6 +28,9 @@ const appRoutes : Routes=[
   },
   {
     path:"kids",component:KidsComponent
+  },
+  {
+    path:"features",component:FeaturesComponent
   }
 ]
 
@@ -38,7 +42,8 @@ const appRoutes : Routes=[
     AboutComponent,
     GentsComponent,
     WomensComponent,
-    KidsComponent
+    KidsComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
