@@ -11,6 +11,7 @@ import { GentsComponent } from './gents/gents.component';
 import { WomensComponent } from './womens/womens.component';
 import { KidsComponent } from './kids/kids.component';
 import { FeaturesComponent } from './features/features.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes : Routes=[
 
@@ -31,6 +32,9 @@ const appRoutes : Routes=[
   },
   {
     path:"features",component:FeaturesComponent
+  },
+  {
+    path:"contact",component:ContactComponent
   }
 ]
 
@@ -43,7 +47,8 @@ const appRoutes : Routes=[
     GentsComponent,
     WomensComponent,
     KidsComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
