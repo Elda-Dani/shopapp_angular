@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { GentsComponent } from './gents/gents.component';
+import { WomensComponent } from './womens/womens.component';
 
 const appRoutes : Routes=[
 
@@ -19,6 +20,9 @@ const appRoutes : Routes=[
   },
   {
     path:"gents",component:GentsComponent
+  },
+  {
+    path:"womens",component:WomensComponent
   }
 ]
 
@@ -28,7 +32,8 @@ const appRoutes : Routes=[
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    GentsComponent
+    GentsComponent,
+    WomensComponent
   ],
   imports: [
     BrowserModule,
